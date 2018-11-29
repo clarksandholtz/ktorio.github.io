@@ -41,7 +41,7 @@ mainClassName = 'io.ktor.server.netty.EngineMain' // Starting with 1.0.0-beta-3
 // This task will generate your fat JAR and put it in the ./build/libs/ directory
 shadowJar {
     manifest {
-        attributes 'Main-Class': 'io.ktor.samples.hello.HelloApplicationKt' // The class containing your module defined in the application.conf
+        attributes 'Main-Class': 'io.ktor.samples.hello.HelloApplication'
     }
 }
 ```
